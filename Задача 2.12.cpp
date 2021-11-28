@@ -5,7 +5,7 @@ int main()
 {
  int n, i,max, j, min;
  cout << "Введите количество элементов массива: ";
- cin << n;
+ cin >> n;
  cout << "Последовательно введите элементы массива: ";
  cin >> j;
  max = min = j;
@@ -21,5 +21,5 @@ int main()
    min = j;
   }
  }
- cout << "Сумма min и max = "« max + min;
+ cout << "Сумма min и max = " << max + min;
 }
