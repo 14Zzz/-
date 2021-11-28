@@ -4,14 +4,14 @@ using namespace std;
 int main()
 {
  int n, i,max, j, min;
- cout « "Введите количество элементов массива: ";
- cin » n;
- cout « "Последовательно введите элементы массива: ";
- cin » j;
+ cout << "Введите количество элементов массива: ";
+ cin << n;
+ cout << "Последовательно введите элементы массива: ";
+ cin >> j;
  max = min = j;
  for (i = n - 1; i > 0; i--)
  {
-  cin » j;
+  cin >> j;
   if (j > max)
   {
    max = j;
@@ -21,5 +21,5 @@ int main()
    min = j;
   }
  }
- cout « "Сумма min и max = "« max + min;
+ cout << "Сумма min и max = "« max + min;
 }
