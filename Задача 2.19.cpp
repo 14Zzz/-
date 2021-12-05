@@ -3,13 +3,13 @@ using namespace std;
 
 int main() {
 	setlocale(LC_ALL, "rus");
-	int n;
-	int sum = 0;
+	int n, sum = 0;
 	cout << "Длинну послендовательности: ";
 	cin >> n;
 	for (int i = 1; i <= n; i++) 
 	{
-		if (i % 3 == 0) {
+		if (i % 3 == 0)
+		{
 			sum -= i;
 		}
 		else {
@@ -17,5 +17,4 @@ int main() {
 		}
 	}
 	cout << "Сумма последовательности: " << sum << endl;
-	return 0;
 }
