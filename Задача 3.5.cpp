@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
     setlocale(LC_ALL, "rus");
     int a[7], count = 1, max;
     cout << "Введите 7 элементов массива: ";
