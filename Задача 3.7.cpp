@@ -11,7 +11,7 @@ int main()
 	{
 		cin >> a[i];
 	}
-	for (int i = 4; i > 0; i--) 
+	for (int i = 1; i < 5; i++) 
 	{
 		if (a[i] < a[i - 1]) 
 		{
