@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "rus");
-	int j, p, i, a[5], min, tmp;
+	int j, p, i, a[5], tmp;
 	cout << "Введите 5 элементов массива: ";
 	for (i = 0; i < 5; i++)
 	{
